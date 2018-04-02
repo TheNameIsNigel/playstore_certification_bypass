@@ -30,6 +30,7 @@ case $BUILD_FGP in
     *BLK-L04*)
         resetprop ro.build.description "taimen-user 8.1.0 OPM1.171019.021 4565141 release-keys"
         resetprop ro.build.fingerprint "google/taimen/taimen:8.1.0/OPM1.171019.021/4565141:user/release-keys"
+        ;;
     *)
         echo "Model not yet supported!"
         ;;
