@@ -17,7 +17,7 @@ case $BUILD_FGP in
     *trlteduoszh*)
         resetprop ro.build.fingerprint "samsung/trlteduoszh/trltechnzh:6.0.1/MMB29M/N9100ZHU1DQH2:user/release-keys"
         resetprop ro.build.display.id "trlteduoszh-user 6.0.1 MMB29M N9100ZHU1DQH2 release-keys"
-        resetprop ro.build.id "MMB29M"
+        resetprop ro.build.id "MMB29M" 
         resetprop ro.build.version.release "6.0.1"
         resetprop ro.build.version.incremental "N9100ZHU1DQH2"
         ;;
@@ -27,6 +27,9 @@ case $BUILD_FGP in
         resetprop ro.build.fingerprint "OnePlus/OnePlus2/OnePlus2:6.0.1/MMB29M/1447841200:user/release-keys"
         resetprop ro.build.oemfingerprint "6.0.1/MMB29M/1447841200:user/release-keys"
         ;;
+    *BLK-L04*)
+        resetprop ro.build.description "taimen-user 8.1.0 OPM1.171019.021 4565141 release-keys"
+        resetprop ro.build.fingerprint "google/taimen/taimen:8.1.0/OPM1.171019.021/4565141:user/release-keys"
     *)
         echo "Model not yet supported!"
         ;;
